@@ -4,8 +4,9 @@ from telebot import types
 import json
 import time
 import threading
+import os
+token = os.getenv('TELEGRAM_BOT_TOKEN')
 
-token = '8078841011:AAEuA-eE9U4rv2x09WOSTPwWDeyECzW62ms'
 
 #Here is your bot token
 bot = telebot.TeleBot(token)
